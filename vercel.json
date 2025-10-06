@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/favicon.ico", "dest": "/vite.svg" },
+    { "src": "/.*", "dest": "/index.html" }
+  ]
+}
+
