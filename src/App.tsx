@@ -2,8 +2,8 @@ import { Outlet, NavLink, Link } from 'react-router-dom'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-neutral-950 text-neutral-100">
-      <header className="border-b border-neutral-800">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-950 via-blue-950 to-purple-950 text-white">
+      <header className="border-b border-orange-500/30 bg-black/20 backdrop-blur-md">
         <nav className="container-page flex h-16 items-center justify-between">
           <Link to="/" className="text-lg font-semibold">SignalEdge</Link>
           <div className="flex items-center gap-6 text-sm">
@@ -21,8 +21,8 @@ export default function App() {
         <Outlet />
       </main>
 
-      <footer className="border-t border-neutral-800">
-        <div className="container-page py-6 text-sm text-neutral-400">
+      <footer className="border-t border-orange-500/30 bg-black/20 backdrop-blur-md">
+        <div className="container-page py-6 text-sm text-gray-300">
           © {new Date().getFullYear()} SignalEdge – Research, Education & Automated Crypto Insights. All rights reserved.
         </div>
       </footer>

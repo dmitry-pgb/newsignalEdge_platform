@@ -8,8 +8,16 @@ export default {
     extend: {
       colors: {
         brand: {
-          DEFAULT: '#22c55e',
-          dark: '#16a34a',
+          DEFAULT: '#f97316',
+          dark: '#ea580c',
+          light: '#fb923c',
+        },
+        accent: {
+          orange: '#f97316',
+          cyan: '#06b6d4',
+          purple: '#a855f7',
+          pink: '#ec4899',
+          gold: '#fbbf24',
         },
       },
     },
